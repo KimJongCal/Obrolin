@@ -7,31 +7,77 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+
+  img.avatar {
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  body, html {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));
+  }
+
+  .card-container.card {
+    max-width: 350px;
+    padding: 40px 40px;
+  }
+
+  .card {
+    background-color: #F7F7F7;
+    /* just in case there no content*/
+    padding: 20px 25px 30px;
+    margin: 0 auto 25px;
+    margin-top: 50px;
+    /* shadows and rounded borders */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+
+
+</style>
+
 </head>
+
 <body>
 
 <div class="container">
-  <h2>Form control: input</h2>
-  <p>The form below contains two input elements; one of type text and one of type password:</p>
+  <div class="card card-container">
+        <h2><p class="text-center">Form Login</p></h2>
+        <p>Assalammualaikum</p>
   <form>
     <!---untuk Avatar ---->
     <div class="imgcontainer">
         <img src="user.png" alt="Avatar" class="avatar">
+        
     </div>
     <!---penutup--->
 
-    <div class="form-group">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-    </div>
-    <!--akhir penutup inpt user name----->
+        <div class="form-group">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+        </div>
+        <!--akhir penutup inpt user name----->
     
-    <div class="form-group">
-      <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-    </div>
-    <!---akhir penutup form password---->
-  </form>
+       <div class="form-group">
+       <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+      </div>
+         <!---akhir penutup form password---->
+    </form>
+  </div>
 </div>
 
 </body>
