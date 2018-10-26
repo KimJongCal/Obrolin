@@ -14,14 +14,23 @@
   <h2>Form control: input</h2>
   <p>The form below contains two input elements; one of type text and one of type password:</p>
   <form>
-    <div class="form-group">
-      <label for="usr">Name:</label>
-      <input type="text" class="form-control" id="usr">
+    <!---untuk Avatar ---->
+    <div class="imgcontainer">
+        <img src="user.png" alt="Avatar" class="avatar">
     </div>
+    <!---penutup--->
+
     <div class="form-group">
-      <label for="pwd">Password:</label>
-      <input type="password" class="form-control" id="pwd">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
     </div>
+    <!--akhir penutup inpt user name----->
+    
+    <div class="form-group">
+      <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    </div>
+    <!---akhir penutup form password---->
   </form>
 </div>
 
