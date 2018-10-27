@@ -9,6 +9,22 @@
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/bootstrap.min.css" />
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <!--styel Profil Page-->
+        <style>
+    .container{
+                padding:5%;
+                }
+                .container .img{
+                text-align:center;
+                }
+                .container .details{
+                border-left:3px solid #ded4da;
+                }
+                .container .details p{
+                font-size:15px;
+                font-weight:bold;
+                }            
+        </style>
 </head>
 <body>
     <!-- Navbar -->
@@ -54,7 +70,16 @@
         <div class="card" style="">
             <h1>Profil User</h1>
             <div class="imgcontainer">
-                <img src="user.png" alt="Avatar" class="avatar" ><h3>Nama User</h3> 
+                <div class="card-body">
+
+                    <img src="user.png" alt="Avatar" class="avatar" > 
+                    <div class="col-md-6 details">
+                         <h5>Nama User</h5>
+                        <h5>Email User</h5>  
+                        <h5>No telp User</h5> 
+
+                    </div>
+                </div>
             </div>
             <div></div>
         </div>
