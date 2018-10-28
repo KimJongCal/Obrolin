@@ -69,17 +69,19 @@
                             <label for="usr">Judul Thread</label>
                             <input type="text" class="form-control" id="usr">
                         </div>
-                        <!-- Thread kategori -->
-                        <label for="usr">Kategori</label>
-                        <select name="kategori" class="form-control">
-                            <option>Lifestyle</option>
-                            <option>Gaming</option>
-                            <option>Lifehacks</option>
-                        </select>
+                        <div class="form-group">
+                            <!-- Thread kategori -->
+                            <label for="usr">Kategori</label>
+                            <select name="kategori" class="form-control">
+                                <option>Lifestyle</option>
+                                <option>Gaming</option>
+                                <option>Lifehacks</option>
+                            </select>
+                        </div>
                         <!-- Theard Isi -->
                         <div class="form-group">
-                            <label for="comment">Isi</label>
-                            <textarea class="form-control" rows="5" id="comment"></textarea>
+                            <label for="isi">Isi</label>
+                            <textarea class="form-control" name="isi" rows="5" id="isi"></textarea>
                         </div>    
                         <!-- Button Submit Isi -->
                         <button type="button" class="btn btn-primary">Kirim</button>
@@ -99,6 +101,10 @@
     <!-- Jquery -->
     <script src="../../assets/js/jquery.min.js" type="text/javascript"></script>
     <script src="../../assets/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../../assets/plugin/ckeditor/ckeditor.js" type="text/javascript"></script>
+    <script>
+        CKEDITOR.replace( 'isi' );
+    </script>
 </body>
 
 </html>
