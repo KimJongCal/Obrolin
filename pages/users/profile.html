@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +14,7 @@
     <!-- custom -->
     <link rel="stylesheet" type="text/css" media="screen" href="../../assets/css/style.css" />
 </head>
+
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-dark bg-dark" style="height:25px; padding: 15px">
@@ -24,18 +26,20 @@
             <img src="assets/img/web.png" width="30" height="30" class="d-inline-block align-top" alt="">
             Obrolin
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Kategori
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Kategori
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Action</a>
@@ -53,27 +57,79 @@
     </nav>
 
     <!--bagian Profil-->
-    <div class="card-body">
-        <div class="card" style="">
-            <h1>Profil User</h1>
-            <div class="imgcontainer">
-                <div class="card-body">
-
-                    <p><img src="user.png" alt="Avatar" class="avatar" style ="float:left;" /><h5>Nama User</h5> </p>
-                    <div class="col-md-6 details">
-
-                    <div class = "text-center"><h5>Judul Threads <small>Kategori</small></h5>
-                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu ultrices vitae auctor eu augue ut lectus. Molestie nunc non blandit massa enim. Convallis convallis tellus id interdum velit laoreet id donec. Pretium nibh ipsum consequat nisl vel pretium lectus. Cras sed felis eget velit aliquet. Sit amet dictum sit amet justo donec enim diam vulputate. <a href="#">Lihat Selengkapnya</a></p>
-
-                    </div>
+    <div class="container" style="margin-top:20px">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <img src="../../assets/img/web.png" style="width:50px; height:50px;" class="rounded float-left"
+                            alt="foto">
+                        <span class="card-title">
+                            <font size="5">&nbsp;Users01</font>
+                        </span>
+                        <span class="float-right"></span>
                     </div>
                 </div>
             </div>
-            <div></div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="list-group">
+                            <a href="profile.html" class="list-group-item list-group-item-action active"><i class="fa fa-user"></i> Profile</a>
+                            <a href="mythread.html" class="list-group-item list-group-item-action"><i class="fa fa-th-list"></i> My Thread</a>
+                            <a href="mypost.html" class="list-group-item list-group-item-action"><i class="fa fa-comment"></i> My Post</a>
+                            <a href="#" class="list-group-item list-group-item-action"><i class="fa fa-address-book"></i> Friends</a>
+                            <a href="#" class="list-group-item list-group-item-action"><i class="fa fa-users"></i> Groups</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-body">
+                        <table class="table table-striped">
+                            <tr>
+                                <td>User ID</td>
+                                <td><strong>8984625</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Member since</td>
+                                <td><strong>28-7-2016</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Total posts</td>
+                                <td><strong>1001</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Date of Birth</td>
+                                <td><strong>01/24/1988</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Gender</td>
+                                <td><strong>Male</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Home Address</td>
+                                <td><strong>Bandung</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Email</td>
+                                <td><strong>piscalpratama@gmail.com</strong></td>
+                            </tr>
+                            <tr>
+                                <td>Phone Number</td>
+                                <td><strong>08970394590(Mobile)</strong></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
-    
+
 
     <nav class="navbar bottom navbar-light bg-light" style="margin-top: 30px">
         Copyright &copy; 2018, 1100 Squads, Informatika UIN SGD Bandung
@@ -83,4 +139,5 @@
     <script src="assets/js/jquery.min.js" type="text/javascript"></script>
     <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
 </body>
+
 </html>
